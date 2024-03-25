@@ -4,4 +4,4 @@ http:
   mitm:
     - "api.openai.com"
   url-rewrite:
-    - ^https?://api\.openai\.com\/v1 https://api.aigcapi.io/v1 transparent
+    - ^https?://api\.openai\.com\/v1 https://api.aigcapi.io/v1 302
