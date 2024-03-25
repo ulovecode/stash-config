@@ -1,0 +1,7 @@
+name: openai2aigcio
+desc: openai2aigcio
+http:
+  mitm:
+    - "api.openai.com"
+  url-rewrite:
+    - ^https://api.openai.com https://api.aigcapi.io transparent
