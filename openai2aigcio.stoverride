@@ -5,5 +5,3 @@ http:
     - "api.openai.com"
   url-rewrite:
     - ^https?://api\.openai\.com https://api.aigcapi.io transparent
-  force-http-engine:
-    - api.openai.com:443
